@@ -134,6 +134,32 @@ body {
     text-align: center;
 
 }
+
+.quote{
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px 60px;
+    gap: 2px;
+}
+
+.quote-body{
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+.quote-author{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 600;
+    align-self: flex-end;
+    text-align: right;
+}
+
+
 ul {
     margin: 0;
     padding: 0;
