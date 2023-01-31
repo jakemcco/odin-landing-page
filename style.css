@@ -20,7 +20,7 @@ body {
 }
 
 .hero{
-    padding: 8px 140px 40px; /*top | left and right | bottom*/
+    padding: 8px 140px; /*top | left and right | bottom*/
 }
 
 .hero-header{
@@ -45,6 +45,48 @@ body {
     justify-content: flex-end;
     gap: 16px;
 }
+
+.hero-content{
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    gap:50px;
+}
+
+.hero-left-block{
+    display:flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hero-main-text{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 800; /*extra-bold*/
+}
+
+.hero-right-block{
+    background-color: #707a85;
+    color:#E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding:80px;
+}
+
+
+.signup-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+}
+
 
 ul {
     margin: 0;
